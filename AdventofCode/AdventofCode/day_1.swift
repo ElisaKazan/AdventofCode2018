@@ -9,7 +9,7 @@
 import Foundation
 
 func day_1_part_1(){
-    let filename = "/Users/elisakazan/sources/AdventofCode/input_day1.txt"
+    let filename = "/Users/elisakazan/sources/AdventofCode/Input/input_day1.txt"
     let input = try! String(contentsOfFile: filename)
     let array = input.components(separatedBy: "\n")
     
@@ -23,7 +23,7 @@ func day_1_part_1(){
 }
 
 func day_1_part_2(){
-    let filename = "/Users/elisakazan/sources/AdventofCode/input_day1.txt"
+    let filename = "/Users/elisakazan/sources/AdventofCode/Input/input_day1.txt"
     let input = try! String(contentsOfFile: filename)
     let array = input.components(separatedBy: "\n")
     

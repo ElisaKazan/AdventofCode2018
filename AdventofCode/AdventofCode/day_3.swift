@@ -9,7 +9,7 @@
 import Foundation
 
 func day_3_part_1(){
-    let filename = "/Users/elisakazan/sources/AdventofCode/input_day3.txt"
+    let filename = "/Users/elisakazan/sources/AdventofCode/Input/input_day3.txt"
     let input = try! String(contentsOfFile: filename)
     let array = input.components(separatedBy: "\n")
     let regex = try? NSRegularExpression(pattern: "#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9]+)x([0-9]+)")
@@ -67,7 +67,7 @@ func day_3_part_1(){
 }
 
 func day_3_part_2(){
-    let filename = "/Users/elisakazan/sources/AdventofCode/input_day3.txt"
+    let filename = "/Users/elisakazan/sources/AdventofCode/Input/input_day3.txt"
     let input = try! String(contentsOfFile: filename)
     let array = input.components(separatedBy: "\n")
     let regex = try? NSRegularExpression(pattern: "#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9]+)x([0-9]+)")
